@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T12:51:03 IST" name="Dynamic Web table handling Suite" finished-at="2024-09-13T12:51:15 IST" duration-ms="12192">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T12:51:03 IST" name="Dynamic Web table handling testcase" finished-at="2024-09-13T12:51:15 IST" duration-ms="12192">
+      <class name="DynamicWebTableAutomation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:03 IST" name="setup" finished-at="2024-09-13T12:51:10 IST" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLastNameSorting()[pri:1, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:10 IST" name="verifyLastNameSorting" finished-at="2024-09-13T12:51:11 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastNameSorting -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:11 IST" name="captureFailure" finished-at="2024-09-13T12:51:13 IST" duration-ms="1573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLastNameSorting status=SUCCESS method=DynamicWebTableAutomation.verifyLastNameSorting()[pri:1, instance:DynamicWebTableAutomation@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="verifyFirstNameSorting()[pri:2, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:13 IST" name="verifyFirstNameSorting" finished-at="2024-09-13T12:51:13 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstNameSorting -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:13 IST" name="captureFailure" finished-at="2024-09-13T12:51:14 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFirstNameSorting status=SUCCESS method=DynamicWebTableAutomation.verifyFirstNameSorting()[pri:2, instance:DynamicWebTableAutomation@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="verifyEmailSorting()[pri:3, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:14 IST" name="verifyEmailSorting" finished-at="2024-09-13T12:51:14 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailSorting -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:14 IST" name="captureFailure" finished-at="2024-09-13T12:51:14 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmailSorting status=SUCCESS method=DynamicWebTableAutomation.verifyEmailSorting()[pri:3, instance:DynamicWebTableAutomation@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method signature="verifyDueSorting()[pri:4, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:14 IST" name="verifyDueSorting" finished-at="2024-09-13T12:51:14 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDueSorting -->
+        <test-method is-config="true" signature="captureFailure(org.testng.ITestResult)[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:14 IST" name="captureFailure" finished-at="2024-09-13T12:51:14 IST" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDueSorting status=SUCCESS method=DynamicWebTableAutomation.verifyDueSorting()[pri:4, instance:DynamicWebTableAutomation@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DynamicWebTableAutomation@35dab4eb]" started-at="2024-09-13T12:51:14 IST" name="teardown" finished-at="2024-09-13T12:51:15 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- DynamicWebTableAutomation -->
+    </test> <!-- Dynamic Web table handling testcase -->
+  </suite> <!-- Dynamic Web table handling Suite -->
+</testng-results>
